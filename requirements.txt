@@ -1,0 +1,52 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+backcall==0.2.0
+brotlipy==0.7.0
+certifi==2020.6.20
+cffi @ file:///tmp/build/80754af9/cffi_1600699146221/work
+chardet==3.0.4
+click==7.1.2
+cryptography @ file:///tmp/build/80754af9/cryptography_1601046815590/work
+cycler==0.10.0
+decorator==4.4.2
+Flask==1.1.2
+gunicorn==20.0.4
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+ipykernel @ file:///tmp/build/80754af9/ipykernel_1596207638929/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///tmp/build/80754af9/ipython_1598883821407/work
+ipython-genutils==0.2.0
+itsdangerous==1.1.0
+jedi @ file:///tmp/build/80754af9/jedi_1598371611696/work
+Jinja2==2.11.2
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
+jupyter-core==4.6.3
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1604322295622/work
+MarkupSafe==1.1.1
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-suite_1605180228501/work
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233721170/work
+olefile==0.46
+parso==0.7.0
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///tmp/build/80754af9/pillow_1594307295532/work
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1598885458782/work
+ptyprocess==0.6.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments @ file:///tmp/build/80754af9/pygments_1600458456400/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+pyparsing==2.4.7
+PySocks==1.7.1
+python-dateutil==2.8.1
+pyzmq==19.0.2
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+sip==4.19.13
+six==1.15.0
+torch==1.6.0+cpu
+torchvision==0.7.0+cpu
+tornado==6.0.4
+traitlets @ file:///tmp/build/80754af9/traitlets_1600712396819/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+Werkzeug==1.0.1
