@@ -52,7 +52,10 @@ def predict():  # for predict
 
 
 if __name__ == '__main__': 
-    app.run(debug=True, host='127.0.0.1', port=5000)
+    app.debug = True
+    port = int(os.environ.get("PORT", 80))
+    app.run(host='0.0.0.0', port=port, debug=True)
+    # app.run(debug=True, host='127.0.0.1', port=5000)
 
 # heroku 주요 명령어 
 # https://www.a-mean-blog.com/ko/blog/%EB%8B%A8%ED%8E%B8%EA%B0%95%EC%A2%8C/_/Heroku-%ED%97%A4%EB%A1%9C%EC%BF%A0-%EA%B0%80%EC%9E%85-Heroku-CLI-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EA%B0%84%EB%8B%A8-%EC%82%AC%EC%9A%A9%EB%B2%95
